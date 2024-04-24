@@ -19,7 +19,7 @@ body{
     height: 60vh;
     background-color: #000000;
     position: relative;
-    top: 15em;
+    top: 45px;
     text-align: center;
 }
 
@@ -27,10 +27,11 @@ body{
     /* font-size: 55px; */
 }
 
-#wrapper #joke{
+ p{
+    color: #ffffff;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 14px;
-    line-height: 8px;
+    line-height: 2px;
     word-wrap: break-word;
 }
 
