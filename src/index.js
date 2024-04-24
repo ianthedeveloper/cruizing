@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import {jokes} from './jokes';
 import Joke from './Joke';
+import 'tachyons';
 
 ReactDOM.render(
   <div>
