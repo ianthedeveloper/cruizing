@@ -20,6 +20,8 @@ body{
     left: 50%;
     text-align: center;
     display: block;
+    border-radius: 7px;
+    box-shadow: 3px 3px 2px darkolivegreen;
 }
 
 #wrapper .emoji{
