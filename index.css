@@ -27,6 +27,7 @@ body{
 #wrapper .emoji{
     font-size: 99px;
     margin: 22px 0;
+    opacity: 0;
 }
 
 p{
