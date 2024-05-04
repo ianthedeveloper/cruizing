@@ -30,7 +30,7 @@ let getJoke = () => {
         jokeBody.textContent = result.joke;
         jokeBody.classList.add("fade");
         })
-    .catch(error => console.log("Error fetching code", error))
+    .catch(error => console.log("Ooops! There was an error", error))
 
     console.log("Fetching you an EMOJI");
 } 
