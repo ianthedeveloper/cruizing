@@ -32,7 +32,7 @@ let getJoke = () => {
         })
     .catch(error => console.log("Error fetching code", error))
 
-    console.log("Getting you an EMOJI");
+    console.log("Fetching you an EMOJI");
 } 
 
 function handleButtonClick (){
