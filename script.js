@@ -2,23 +2,25 @@
 const jokeBody = document.getElementById("joke");
 const clickBtn = document.getElementById("btn");
 
-let getEmoji = () => {
-    const url2 = "https://robohash.org/set_set1.png?size=200x200";
+// // Function to fetch a new robot animation for every button click
+// let getEmoji = () => {
+//     const url2 = "https://robohash.org/set_set1.png?size=200x200";
 
-    emojiBody.classList.remove("fade");
-    fetch(url2)
-    .then(response => response.blob())
-    .then(blob =>{
-        const imageUrl = URL.createObjectURL(blob);
-        emojiBody.innerHTML = `<img src="${imageUrl}" alt="Emoji"/>`; // response.blob() is used to fetch images
-        emojiBody.classList.add("fade");
-    })
-    .catch(error => console.log("Error fetching emoji", error))
+//     emojiBody.classList.remove("fade");
+//     fetch(url2)
+//     .then(response => response.blob())
+//     .then(blob =>{
+//         const imageUrl = URL.createObjectURL(blob);
+//         emojiBody.innerHTML = `<img src="${imageUrl}" alt="Emoji"/>`; // response.blob() is used to fetch images
+//         emojiBody.classList.add("fade");
+//     })
+//     .catch(error => console.log("Error fetching emoji", error))
 
-    console.log("Fetching emoji");
-}
+//     console.log("Fetching emoji");
+// }
 
 
+// Function to fetch a new joke for every button click
 let getJoke = () => {
     const url = "https://v2.jokeapi.dev/joke/Any";
 
@@ -36,13 +38,13 @@ let getJoke = () => {
 } 
 
 function handleButtonClick (){
-    getEmoji();
+    // getEmoji();
     getJoke();
 }
 
 clickBtn.addEventListener("click", handleButtonClick);
 // Initial joke fetch when page loads
-getEmoji();
+// getEmoji();
 getJoke();
 
 

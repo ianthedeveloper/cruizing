@@ -24,11 +24,18 @@ body{
     box-shadow: 3px 3px 2px darkolivegreen;
 }
 
-#wrapper .emoji{
+/* Active when feching a new robot animation for eery button click */
+/* #wrapper .emoji{
     font-size: 99px;
     margin: 22px 0;
     opacity: 0;
+} */
+
+#emoji {
+    font-size: 99px;
+    margin: 22px 0;
 }
+
 
 p{
     color: #ffffff;
