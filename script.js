@@ -1,4 +1,4 @@
-const emojiBody = document.querySelector(".emoji");
+// const emojiBody = document.querySelector(".emoji");
 const jokeBody = document.getElementById("joke");
 const clickBtn = document.getElementById("btn");
 
@@ -32,7 +32,7 @@ let getJoke = () => {
         })
     .catch(error => console.log("Ooops! There was an error", error))
 
-    console.log("Fetching you an EMOJI");
+    console.log("Fetching you a JOKE");
 } 
 
 function handleButtonClick (){
