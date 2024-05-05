@@ -2,7 +2,7 @@
 const jokeBody = document.getElementById("joke");
 const clickBtn = document.getElementById("btn");
 
-// // Function to fetch a new robot animation for every button click
+// // Function to fetch a new robot animation for every button click --- De-activated
 // let getEmoji = () => {
 //     const url2 = "https://robohash.org/set_set1.png?size=200x200";
 
@@ -38,13 +38,13 @@ let getJoke = () => {
 } 
 
 function handleButtonClick (){
-    // getEmoji();
+    // getEmoji(); --- De-activated
     getJoke();
 }
 
 clickBtn.addEventListener("click", handleButtonClick);
 // Initial joke fetch when page loads
-// getEmoji();
+// getEmoji(); --- De-activated
 getJoke();
 
 
